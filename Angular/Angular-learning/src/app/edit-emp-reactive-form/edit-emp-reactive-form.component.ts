@@ -26,7 +26,7 @@ export class EditEmpReactiveFormComponent implements OnInit {
   ngOnInit(): void {
     this.departments = [
       { id: 1, name: "Payroll" },
-      { id: 2, name: "Computer" },
+      { id: 2, name: "Internal" },
       { id: 3, name: "HR" }
     ];
 
