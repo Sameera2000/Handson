@@ -23,7 +23,7 @@ export class EmployeeListComponent implements OnInit {
 		name: 'Sherin', 
 		salary: 10000, 
 		permanent: false, 
-		department: { id: '2', name: 'Finance' }, 
+		department: { id: '2', name: 'Internal' }, 
 		skills: [{ id: '2', name: 'Sql' }, { id: '3', name: 'Java' }], 
 		dateOfBirth: new Date('02/10/1999')
 	},
@@ -50,7 +50,7 @@ export class EmployeeListComponent implements OnInit {
 		name: 'Priya', 
 		salary: 10000, 
 		permanent: true, 
-		department: { id: '2', name: 'Finance' }, 
+		department: { id: '2', name: 'Internal' }, 
 		skills: [{ id: '2', name: 'Sql' }, { id: '3', name: 'Java' }], 
 		dateOfBirth: new Date('02/10/1999')
 	}];
