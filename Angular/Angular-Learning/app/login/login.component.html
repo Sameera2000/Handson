@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<form>
+    Username: <input type="text" name="username" id="username" [(ngModel)] = "username" required>
+    <br/><br>
+    Password: <input type="password" name="password" id="password" [(ngModel)] = "password" required>
+    <br/><br>
+    <button (click) = "login()">Submit</button>
+</form>
+<div>{{message}}</div>

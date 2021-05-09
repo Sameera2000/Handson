@@ -1,0 +1,13 @@
+body {
+    font-family: Segoe UI, Arial;
+}
+a {
+    text-decoration: none;
+}
+.active-link {
+    border-bottom: Solid 1px blue;
+}
+a:visited {
+    color: blue;
+}
+  
